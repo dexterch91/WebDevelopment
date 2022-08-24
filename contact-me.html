@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me | Dexter Chew</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>Block 661C Jurong West Street 64 Singapore 643661</p>
+    <p>+65 81883267</p>
+    <p>dexterchewxh@hotmail.sg</p>
+
+    <form
+      action="mailto:dexterchewxh@hotmail.sg"
+      method="post"
+      enctype="text/plain"
+    >
+      <!--enctype ensures the text inputs are in plain-->
+      <!--Transfer input field to the email-->
+      <label>Your Name:</label>
+      <input type="text" name="yourName" />
+      <br />
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" />
+      <!--Does some basic email validation with the email tab-->
+      <br />
+      <label>Your Message:</label>
+      <br />
+      <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
+
+<!--  <input type="Submit" />
+      <br />
+      <input type="date" />
+      <input type="file" />
+      <input type="radio" />
+      <input type="range" />
+      <input type="color" /> <br />    -->
